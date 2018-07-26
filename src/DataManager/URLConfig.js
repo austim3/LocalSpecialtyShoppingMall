@@ -1,5 +1,5 @@
-const host = 'http://60.205.141.116:';
-const port = 60004;
+const host = ' http://localhost:';
+const port = 59433;
 
 const loginURL = host+port+'/api/login';
 const registerURL = host+port+'/api/register';
@@ -15,6 +15,7 @@ const getMessageURL = host+port+'/api/getMessage';
 const homeMessageURL = host+port+'/api/homeMessage';
 const findUserURL = host+port+'/api/findUser';
 const changePasswordURL = host+port+'/api/changePassword';
+const commodityTypeURL= host+port+'api/commodity/Get';
 export {
     loginURL,
     registerURL,
@@ -29,5 +30,6 @@ export {
     getMessageURL,
     homeMessageURL,
     findUserURL,
-    changePasswordURL
+    changePasswordURL,
+    commodityTypeURL
 }

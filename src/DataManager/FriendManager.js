@@ -22,9 +22,8 @@ class FriendManager {
             });
             const result= res.json();
 
-            return resule
+            return result
 
-            
         } catch (error) {
             return {
                 success:false,
@@ -48,7 +47,7 @@ class FriendManager {
             });
             const result= res.json();
 
-            return resule
+            return result
 
             
         } catch (error) {
@@ -75,7 +74,7 @@ class FriendManager {
             });
             const result= res.json();
 
-            return resule
+            return result
 
             
         } catch (error) {
